@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'font9f3e5f399c91e65d1f10072955705898';
+        
+        src:    url('https://nomail.com.ua/files/eot/9f3e5f399c91e65d1f10072955705898.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/9f3e5f399c91e65d1f10072955705898.woff2') format('woff2');
+    }
+    
+@font-face { font-family: 'Miso';  src: local('Miso'), url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'); }
+
+.font9f3e5f399c91e65d1f10072955705898 { font-family: 'font9f3e5f399c91e65d1f10072955705898'; }
+
+@font-face {
+    font-family: 'font1835f7d3644d5bb0f03ed5fdb40898d4';
+        
+        src:    url('https://nomail.com.ua/files/eot/1835f7d3644d5bb0f03ed5fdb40898d4.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/1835f7d3644d5bb0f03ed5fdb40898d4.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/1835f7d3644d5bb0f03ed5fdb40898d4.woff2') format('woff2');
+    }
+    
+@font-face { font-family: 'Lato-Regular';  src: local('Lato-Regular'), url('https://nomail.com.ua/files/woff/1835f7d3644d5bb0f03ed5fdb40898d4.woff') format('woff'); }
+
+.font1835f7d3644d5bb0f03ed5fdb40898d4 { font-family: 'font1835f7d3644d5bb0f03ed5fdb40898d4'; }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    /* font-family:'Miso'; */
+    /* font-family:'Lato-Regular'; */
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 28px;
+    background-color: #fdde7e;
+    box-shadow: 0px 0px 10px grey;
+    margin: 150px auto;
+}
+
+.menu-item {
+    width: 360px;
+    height: 441px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.menu-item:hover {
+    height: 500px;
+}
+
+.wrapper {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.price {
+    display: block;
+    color: #02995b;
+    font-family: 'Miso';
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 24px;
+}
+
+main div img {
+    margin-bottom: 20px;
+}
+
+.range {
+    height: 36px;
+    font-family: 'Miso';
+    font-size: 56px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 40px;
+    color: #333333;
+}
+
+.coment {
+    font-family: 'Lato-Regular';
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
